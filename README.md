@@ -3,7 +3,7 @@
  Status: **Finalizado**
  
   ## Descrição do Projeto
-   <p>Esse projeto é uma insperação do Alura Fone, com algumas modificações feitas por mim. O projeto representa um telefone onde o usuário pode digitar o número, 
+   <p>Esse projeto é uma inspiração do Alura Fone, com algumas modificações feitas por mim. O projeto representa um telefone onde o usuário pode digitar o número, 
    realizar a chamada, encerrar a chamada e se digitar o número errado, tem como opção limpar o último número.</p>
  
  ## Ferramentas e Tecnologias
