@@ -12,6 +12,11 @@ function apagar() {
     telInput.value = inputText.substring(0,inputText.length-1);
 }
 
+// limpar tela
+function limparTela() {
+    telInput.value = ` `;
+}
+
 
 // vai percorrer a lista de teclas
 for(let contador = 0; contador < telTeclado.length; contador++){
@@ -26,10 +31,12 @@ for(let contador = 0; contador < telTeclado.length; contador++){
 // vai desligar
 desligar.onclick = function () {
     telInput.value = `Chamada Encerrada!`;
+    setTimeout(limparTela, 1000);
 }
 
 // vai ligar
 ligar.onclick = function () {
     telInput.value = `Chamando...`;
+    setTimeout(limparTela, 1000); 
 }
 
